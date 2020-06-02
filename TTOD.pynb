@@ -1,0 +1,6 @@
+from google.colab import drive
+drive.mount('/content/drive')
+
+!sudo apt-get install transmission-cli
+
+!transmission-cli -w "Drive path" "Megnet Link"
